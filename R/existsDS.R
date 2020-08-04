@@ -49,11 +49,12 @@ existsDS <- function(variable.name = NULL, environment.name = ".GlobalEnv", clas
 
     #verifies the environment exists
     list.environments <- search()
-
+    exists("11111")
     #get the position of the environment in the environments list
     position <- which(list.environments %in% environment.name)
     if(!identical(position,integer(0)))
     {
+       exists("22222")
        #check variable exists in environment
        if (exists(variable.name, where = position))
        {
