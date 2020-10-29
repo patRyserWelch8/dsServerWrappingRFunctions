@@ -5,18 +5,16 @@ Version: 0.1.0
 Authors@R: 
     c(person("Leire",family = "Abarrategui",role = c("aut"),email = "nla94@newcastle.ac.uk"),
       person("Patricia", "Ryser-Welch", ,"patricia.ryser-welch@newcastle.ac.uk", role = c("aut", "cre")))
-Maintainer: Patricia Ryser-Welch
-Description: This package wraps R function for a DataSHIELD server
+Maintainer: Patricia Ryser-Welch <patricia.ryser-welch@newcastle.ac.uk>
 License: GPL-3
+Description: This package wraps R function for a DataSHIELD server
 Encoding: UTF-8
-Imports:
-  AggregateMethods:
+AggregateMethods:
     createEnvironmentDS,
     environmentInfoDS,
     existsDS,
     getEnvironmentDS,
     removeDS,
     whereDS
-    
-    
 LazyData: true
+RoxygenNote: 7.0.2
