@@ -10,10 +10,6 @@ License: GPL-3
 Description: This package wraps R function for a DataSHIELD server
 Encoding: UTF-8
 AggregateMethods:
-    createEnvironmentDS,
-    environmentInfoDS,
-    existsDS,
-    getEnvironmentDS,
     removeDS,
     whereDS
 LazyData: true
