@@ -11,6 +11,10 @@ Description: This package wraps R function for a DataSHIELD server
 Encoding: UTF-8
 AggregateMethods:
     removeDS,
-    whereDS
+    whereDS,
+    createEnvironmentDS,	
+    environmentInfoDS,	
+    existsDS,	
+    getEnvironmentDS
 LazyData: true
 RoxygenNote: 7.0.2
