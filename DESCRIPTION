@@ -2,9 +2,19 @@ Package: ds.server.wrapping.R.functions
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Patricia Ryser-Welch (DataSHIELD Team)
+Authors@R: 
+    c(person("Leire",family = "Abarrategui",role = c("aut"),email = "nla94@newcastle.ac.uk"),
+      person("Patricia", "Ryser-Welch", ,"patricia.ryser-welch@newcastle.ac.uk", role = c("aut", "cre")))
 Maintainer: Patricia Ryser-Welch <patricia.ryser-welch@newcastle.ac.uk>
+License: GPL-3
 Description: This package wraps R function for a DataSHIELD server
-License: What license is it under?
 Encoding: UTF-8
+AggregateMethods:
+    removeDS,
+    whereDS,
+    createEnvironmentDS,	
+    environmentInfoDS,	
+    existsDS,	
+    getEnvironmentDS
 LazyData: true
+RoxygenNote: 7.0.2
